@@ -18,9 +18,7 @@ function counting() {
         audio.play();}
     }
 
-    function save(){
 
-    }
 
     function reset() {
         count = 0; // Reset count to 0
