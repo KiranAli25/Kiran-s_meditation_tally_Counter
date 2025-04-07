@@ -1,0 +1,41 @@
+body{
+    background-image: url('https://i.postimg.cc/Y2LH24zM/organic-flat-people-meditating-illustration-23-2148906556.avif');
+    background-repeat: no-repeat;
+    background-position: full-center;
+    background-size: 50%;
+    background-attachment: fixed;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-size: contain;
+}  
+button{
+    background-color: #f8b7dd; /* pink */
+    border: none; /* Remove borders */
+    color: rgb(15, 15, 15); /* White text */
+    padding: 5% 7%; /* Some padding */
+    text-align: center; /* Centered text */
+    text-decoration: none; /* No underline */
+    display: inline-block; /* Get the element to display like a button */
+    font-size: 16px; /* Increase font size */
+    margin: 4px 2px; /* Add some margin */
+    cursor: pointer; /* Pointer/hand icon */
+    border-radius: 12px; /* Rounded corners */
+}
+button:hover {
+    background-color: #9052f3; /* Darker pink on hover */
+    color: rgb(14, 13, 13); /* White text */
+    transition: 0.3s; /* Transition effect */
+}
+
+h1,h2,button{
+    background-color: #ee81c065;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    
+} 
+ 
