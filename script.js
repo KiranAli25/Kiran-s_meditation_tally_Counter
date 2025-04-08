@@ -3,6 +3,8 @@ let h2 = document.getElementById("chant");
 let audio= new Audio("Record (online-voice-recorder.com).mp3");
 let byeMessage = new Audio("Record 1 (online-voice-recorder.com).mp3")
 let count = 0;
+let saveButton = document.getElementById("history");
+let resetButton = document.getElementById("history");
 
 function counting() {
     count = count+ 1; // Increment count by 1
@@ -18,11 +20,20 @@ function counting() {
         audio.play();}
     }
 
-
-
     function reset() {
         count = 0; // Reset count to 0
         h2.innerHTML = count; // Update the content of the h2 element
         byeMessage.play();
         alert("Bye bye! See you next time!");
+    }
+
+    function save(){
+        let countString= count + " - "
+        saveButton.innerHTML += countString;
+    }
+
+    function resetP(){
+        his= "Previous Chants: "
+        resetButton.innerHTML = his;
+        alert("your progress history has been reset");
     }

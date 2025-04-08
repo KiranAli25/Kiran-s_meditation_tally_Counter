@@ -24,6 +24,7 @@ button{
     margin: 4px 2px; /* Add some margin */
     cursor: pointer; /* Pointer/hand icon */
     border-radius: 12px; /* Rounded corners */
+    font-weight: bolder;
 }
 button:hover {
     background-color: #9052f3; /* Darker pink on hover */
@@ -36,6 +37,8 @@ h1,h2,button{
     border-radius: 5px;
     padding: 10px;
     text-align: center;
-    
-} 
- 
+}
+p{
+    font-weight: bold;
+    color: blueviolet;
+    }
