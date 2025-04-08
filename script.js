@@ -1,7 +1,6 @@
 
 let h2 = document.getElementById("chant");
 let audio= new Audio("Record (online-voice-recorder.com).mp3");
-let byeMessage = new Audio("Record 1 (online-voice-recorder.com).mp3")
 let count = 0;
 let saveButton = document.getElementById("history");
 let resetButton = document.getElementById("history");
@@ -22,9 +21,7 @@ function counting() {
 
     function reset() {
         count = 0; // Reset count to 0
-        h2.innerHTML = count; // Update the content of the h2 element
-        byeMessage.play();
-        alert("Bye bye! See you next time!");
+            alert("Reset Done!");
     }
 
     function save(){
