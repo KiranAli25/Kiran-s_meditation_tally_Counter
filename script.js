@@ -6,7 +6,7 @@ let saveButton = document.getElementById("history");
 let resetButton = document.getElementById("history");
 
 function counting() {
-    count = count+ 1; // Increment count by 1
+    count +=1; // Increment count by 1
     h2.innerHTML = count; // Update the content of the h2 element
 
     if (count === 100) {
