@@ -21,6 +21,7 @@ function counting() {
 
     function reset() {
         count = 0; // Reset count to 0
+        h2.innerHTML = count; // Update the content of the h2 element
             alert("Reset Done!");
     }
 
